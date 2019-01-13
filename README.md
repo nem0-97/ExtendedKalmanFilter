@@ -58,7 +58,7 @@ To Build:
 ## Main Structure:
 
 In src the following files:
- 1. Main.cpp
+ 1. main.cpp
 
     Builds MeasurementPackage object containing the inputs passed to program for a single measurement, passes this object to a FusionEKF object to process, calls Tools object to calculate RMSE between predictions and ground truths passed in , then gets results from both objects and combines it into a JSON object containing estimated positions and RMSE for the x and y positions and velocities.
 
